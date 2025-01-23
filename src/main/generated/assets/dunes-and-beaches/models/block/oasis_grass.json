@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_top",
+  "textures": {
+    "side": "dunes-and-beaches:block/oasis_grass_side",
+    "top": "dunes-and-beaches:block/oasis_grass_top"
+  }
+}

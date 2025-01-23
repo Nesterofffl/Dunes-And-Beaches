@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:string",
+    "dunes-and-beaches:dried_leather"
+  ],
+  "result": {
+    "count": 1,
+    "id": "dunes-and-beaches:art_leather"
+  }
+}

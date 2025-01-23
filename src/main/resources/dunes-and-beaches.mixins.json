@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "com.nesterofffl.dnb.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"ExampleMixin", "AbstractBlockMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

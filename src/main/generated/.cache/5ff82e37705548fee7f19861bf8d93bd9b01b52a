@@ -1,0 +1,9 @@
+// 1.21.4	-999999999-01-01T00:00:00	Dunes and Beaches/Block Loot Tables
+a8436e0a84f728085cb55b113611cb61813176f8 data/dunes-and-beaches/loot_table/blocks/coconut_log.json
+d5802af78540d27ccd345ed2483a7f45d5776117 data/dunes-and-beaches/loot_table/blocks/coconut_planks.json
+1a8046a53d5423a689f14e6930631d9d2b966e09 data/dunes-and-beaches/loot_table/blocks/coconut_stairs.json
+f68f96d8792d68e93dd4e7dc16b857cacf344e8e data/dunes-and-beaches/loot_table/blocks/sanded_cobblestone.json
+121f8bdc4b9e0673bb267a5c61968c4b58a24f9e data/dunes-and-beaches/loot_table/blocks/sanded_stone.json
+f84a42b3d9aab838c4b27443d1cc8190b2221767 data/dunes-and-beaches/loot_table/blocks/sandstone_brick_slab.json
+55ca5115fc1516ac54fa74a895d3324fc38d65ab data/dunes-and-beaches/loot_table/blocks/sandstone_brick_stairs.json
+13aab4c4e84a5cb9083a38099b6861f1f74aaf52 data/dunes-and-beaches/loot_table/blocks/sandstone_bricks.json
