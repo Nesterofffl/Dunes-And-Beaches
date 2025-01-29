@@ -5,7 +5,9 @@ import com.nesterofffl.dnb.item.ModItemGroups;
 import com.nesterofffl.dnb.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.fabricmc.fabric.api.registry.StrippableBlockRegistry;
+import net.minecraft.client.render.RenderLayer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -23,6 +25,8 @@ public class DunesAndBeaches implements ModInitializer {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 		ModItemGroups.registerItemGroups();
+
+		BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.Coconut_Door, RenderLayer.getCutout());
 
 		StrippableBlockRegistry.register(ModBlocks.Coconut_Log, ModBlocks.Stripped_Coconut_Log);
 		StrippableBlockRegistry.register(ModBlocks.Coconut_Wood, ModBlocks.Stripped_Coconut_Wood);

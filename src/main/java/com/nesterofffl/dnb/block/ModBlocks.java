@@ -1,8 +1,11 @@
 package com.nesterofffl.dnb.block;
 
 import com.nesterofffl.dnb.DunesAndBeaches;
+import com.nesterofffl.dnb.util.ModTags;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.*;
+import net.minecraft.block.enums.NoteBlockInstrument;
+import net.minecraft.block.piston.PistonBehavior;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
@@ -14,6 +17,9 @@ import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 
 public class ModBlocks {
+
+    public static final Block Sand_Carpet = registerBlock("sand_carpet", new SnowBlock(AbstractBlock.Settings.create().replaceable().notSolid().ticksRandomly().strength(0.1F).requiresTool().sounds(BlockSoundGroup.SNOW).blockVision((state, world, pos) -> (Integer)state.get(SnowBlock.LAYERS) >= 8).pistonBehavior(PistonBehavior.DESTROY)
+            .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(DunesAndBeaches.MOD_ID,"sand_carpet")))));
 
     //Кокосовое Дерево и производные
     public static final Block Coconut_Log = registerBlock("coconut_log", new PillarBlock(AbstractBlock.Settings.create().sounds(BlockSoundGroup.BAMBOO_WOOD)
@@ -33,6 +39,16 @@ public class ModBlocks {
 
     public static final Block Stripped_Coconut_Wood = registerBlock("stripped_coconut_wood", new PillarBlock(AbstractBlock.Settings.copy(Blocks.STRIPPED_OAK_WOOD)
             .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(DunesAndBeaches.MOD_ID,"stripped_coconut_wood")))));
+
+    public static final Block Coconut_Fence = registerBlock("coconut_fence", new FenceBlock(AbstractBlock.Settings.copy(Blocks.OAK_FENCE)
+            .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(DunesAndBeaches.MOD_ID, "coconut_fence")))));
+
+    public static final Block Coconut_Fence_Gate = registerBlock("coconut_fence_gate", new FenceGateBlock(WoodType.JUNGLE, AbstractBlock.Settings.copy(Blocks.OAK_FENCE)
+            .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(DunesAndBeaches.MOD_ID, "coconut_fence_gate")))));
+
+    public static final Block Coconut_Door = registerBlock("coconut_door", new DoorBlock(BlockSetType.ACACIA, AbstractBlock.Settings.create().mapColor(Coconut_Planks.getDefaultMapColor()).instrument(NoteBlockInstrument.BASS).strength(3.0F).nonOpaque().burnable().pistonBehavior(PistonBehavior.DESTROY)
+            .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(DunesAndBeaches.MOD_ID, "coconut_door")))));
+
 
     public static final Block Coconut_Leaves = registerBlock("coconut_leaves", new LeavesBlock(AbstractBlock.Settings.copy(Blocks.OAK_LEAVES)
             .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(DunesAndBeaches.MOD_ID,"coconut_leaves")))));
@@ -111,6 +127,9 @@ public class ModBlocks {
             entries.add(ModBlocks.Coconut_Wood);
             entries.add(ModBlocks.Coconut_Planks);
             entries.add(ModBlocks.Coconut_Stairs);
+            entries.add(ModBlocks.Coconut_Fence);
+            entries.add(ModBlocks.Coconut_Fence_Gate);
+            entries.add(ModBlocks.Coconut_Door);
             entries.add(ModBlocks.Stripped_Coconut_Log);
             entries.add(ModBlocks.Stripped_Coconut_Wood);
             entries.add(ModBlocks.Sandstone_Bricks);
@@ -124,6 +143,7 @@ public class ModBlocks {
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register(entries ->
         {
+            entries.add(ModBlocks.Sand_Carpet);
             entries.add(ModBlocks.Oasis_Grass);
             entries.add(ModBlocks.Coconut_Leaves);
         });

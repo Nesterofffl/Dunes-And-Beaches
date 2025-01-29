@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "dunes-and-beaches:block/stripped_desert_log_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "dunes-and-beaches:block/stripped_desert_log"
+    },
+    "axis=z": {
+      "model": "dunes-and-beaches:block/stripped_desert_log_horizontal",
+      "x": 90
+    }
+  }
+}

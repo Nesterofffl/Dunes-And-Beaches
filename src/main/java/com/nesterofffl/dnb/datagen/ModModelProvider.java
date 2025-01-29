@@ -19,6 +19,8 @@ public class ModModelProvider extends FabricModelProvider
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator)
     {
+
+
         BlockStateModelGenerator.BlockTexturePool sandstone_bricks_pool= blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.Sandstone_Bricks);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.Sanded_Stone);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.Sanded_Cobblestone);
@@ -26,12 +28,17 @@ public class ModModelProvider extends FabricModelProvider
         BlockStateModelGenerator.BlockTexturePool coconut_planks_pool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.Coconut_Planks);
         blockStateModelGenerator.registerLog(ModBlocks.Coconut_Log).log(ModBlocks.Coconut_Log).wood(ModBlocks.Coconut_Wood);
         blockStateModelGenerator.registerLog(ModBlocks.Stripped_Coconut_Log).log(ModBlocks.Stripped_Coconut_Log).wood(ModBlocks.Stripped_Coconut_Wood);
-        coconut_planks_pool.stairs(ModBlocks.Coconut_Stairs);
+        blockStateModelGenerator.registerDoor(ModBlocks.Coconut_Door);
+        coconut_planks_pool.stairs(ModBlocks.Coconut_Stairs)
+                .fence(ModBlocks.Coconut_Fence)
+                .fenceGate(ModBlocks.Coconut_Fence_Gate);
+
+
         blockStateModelGenerator.registerSingleton(ModBlocks.Coconut_Leaves, TexturedModel.LEAVES);
 
         BlockStateModelGenerator.BlockTexturePool desert_planks_pool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.Desert_Planks);
         blockStateModelGenerator.registerLog(ModBlocks.Desert_Log).log(ModBlocks.Desert_Log).wood(ModBlocks.Desert_Wood);
-        blockStateModelGenerator.registerLog(ModBlocks.Stripped_Desert_Log).log(ModBlocks.Stripped_Desert_Log).wood(ModBlocks.Desert_Wood);
+        blockStateModelGenerator.registerLog(ModBlocks.Stripped_Desert_Log).log(ModBlocks.Stripped_Desert_Log).wood(ModBlocks.Stripped_Desert_Wood);
         desert_planks_pool.stairs(ModBlocks.Desert_Stairs);
         blockStateModelGenerator.registerSingleton(ModBlocks.Desert_Leaves, TexturedModel.LEAVES);
 

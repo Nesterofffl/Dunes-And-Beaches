@@ -33,6 +33,10 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider
 
         getOrCreateTagBuilder(BlockTags.WALLS)
                 .add(ModBlocks.Sandstone_Brick_Wall);
+
+        getOrCreateTagBuilder(BlockTags.FENCES).add(ModBlocks.Coconut_Fence);
+        getOrCreateTagBuilder(BlockTags.FENCE_GATES).add(ModBlocks.Coconut_Fence_Gate);
+        getOrCreateTagBuilder(BlockTags.DOORS).add(ModBlocks.Coconut_Door);
     }
 }
 

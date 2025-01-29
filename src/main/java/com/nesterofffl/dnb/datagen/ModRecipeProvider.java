@@ -39,6 +39,8 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
 
                 offerShapelessRecipe(ModBlocks.Coconut_Planks, ModBlocks.Coconut_Log, "BUILDING_BLOCKS", 4 );
+
+
                 createShapeless(RecipeCategory.MISC, ModItems.Art_Leather)
                         .input(Items.STRING).input(ModItems.Dried_Leather)
                         .criterion(hasItem(ModItems.Dried_Leather), conditionsFromItem(ModItems.Dried_Leather))

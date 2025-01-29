@@ -21,8 +21,14 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.Sanded_Stone);
 
         addDrop(ModBlocks.Coconut_Log);
+        addDrop(ModBlocks.Coconut_Wood);
+        addDrop(ModBlocks.Stripped_Coconut_Log);
+        addDrop(ModBlocks.Stripped_Coconut_Wood);
         addDrop(ModBlocks.Coconut_Planks);
         addDrop(ModBlocks.Coconut_Stairs);
+        addDrop(ModBlocks.Coconut_Fence);
+        addDrop(ModBlocks.Coconut_Fence_Gate);
+        addDrop(ModBlocks.Coconut_Door, doorDrops(ModBlocks.Coconut_Door));
 
         addDrop(ModBlocks.Desert_Log);
         addDrop(ModBlocks.Desert_Planks);

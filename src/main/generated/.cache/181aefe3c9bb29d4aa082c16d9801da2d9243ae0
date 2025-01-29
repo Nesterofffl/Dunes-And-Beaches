@@ -1,4 +1,7 @@
 // 1.21.4	-999999999-01-01T00:00:00	Dunes and Beaches/Tags for minecraft:block
+9d3f4072fd1391b486d992fb8124fe665094549d data/minecraft/tags/block/doors.json
+8551374de88fa26319229bdc9bae7c8868961be3 data/minecraft/tags/block/fence_gates.json
+7da258e45e9a0d7a8f0e5e66d8d955460784977f data/minecraft/tags/block/fences.json
 0a036937d695b1568a3fb0399fa0522f78799278 data/minecraft/tags/block/mineable/pickaxe.json
 3894bcec78cba17bec191c974e98454ae249721a data/minecraft/tags/block/slabs.json
 5838e1c6bb40ec62976b619eb2943e05bbb09133 data/minecraft/tags/block/stairs.json

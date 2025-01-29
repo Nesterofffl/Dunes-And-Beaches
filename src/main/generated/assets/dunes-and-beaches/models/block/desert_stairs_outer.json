@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "dunes-and-beaches:block/desert_planks",
+    "side": "dunes-and-beaches:block/desert_planks",
+    "top": "dunes-and-beaches:block/desert_planks"
+  }
+}
