@@ -38,7 +38,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
 
 
-                offerShapelessRecipe(ModBlocks.Coconut_Planks, ModBlocks.Coconut_Log, "BUILDING_BLOCKS", 4 );
+                offerShapelessRecipe(ModBlocks.Palm_Planks, ModBlocks.Palm_Log, "BUILDING_BLOCKS", 4 );
 
 
                 createShapeless(RecipeCategory.MISC, ModItems.Art_Leather)

@@ -25,16 +25,17 @@ public class ModModelProvider extends FabricModelProvider
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.Sanded_Stone);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.Sanded_Cobblestone);
 
-        BlockStateModelGenerator.BlockTexturePool coconut_planks_pool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.Coconut_Planks);
-        blockStateModelGenerator.registerLog(ModBlocks.Coconut_Log).log(ModBlocks.Coconut_Log).wood(ModBlocks.Coconut_Wood);
-        blockStateModelGenerator.registerLog(ModBlocks.Stripped_Coconut_Log).log(ModBlocks.Stripped_Coconut_Log).wood(ModBlocks.Stripped_Coconut_Wood);
-        blockStateModelGenerator.registerDoor(ModBlocks.Coconut_Door);
-        coconut_planks_pool.stairs(ModBlocks.Coconut_Stairs)
-                .fence(ModBlocks.Coconut_Fence)
-                .fenceGate(ModBlocks.Coconut_Fence_Gate);
+        BlockStateModelGenerator.BlockTexturePool coconut_planks_pool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.Palm_Planks);
+        blockStateModelGenerator.registerLog(ModBlocks.Palm_Log).log(ModBlocks.Palm_Log).wood(ModBlocks.Palm_Wood);
+        blockStateModelGenerator.registerLog(ModBlocks.Stripped_Palm_Log).log(ModBlocks.Stripped_Palm_Log).wood(ModBlocks.Stripped_Palm_Wood);
+        blockStateModelGenerator.registerDoor(ModBlocks.Palm_Door);
+        blockStateModelGenerator.registerTrapdoor(ModBlocks.Palm_Trapdoor);
+        coconut_planks_pool.stairs(ModBlocks.Palm_Stairs)
+                .fence(ModBlocks.Palm_Fence)
+                .fenceGate(ModBlocks.Palm_Fence_Gate);
 
 
-        blockStateModelGenerator.registerSingleton(ModBlocks.Coconut_Leaves, TexturedModel.LEAVES);
+        blockStateModelGenerator.registerSingleton(ModBlocks.Palm_Leaves, TexturedModel.LEAVES);
 
         BlockStateModelGenerator.BlockTexturePool desert_planks_pool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.Desert_Planks);
         blockStateModelGenerator.registerLog(ModBlocks.Desert_Log).log(ModBlocks.Desert_Log).wood(ModBlocks.Desert_Wood);

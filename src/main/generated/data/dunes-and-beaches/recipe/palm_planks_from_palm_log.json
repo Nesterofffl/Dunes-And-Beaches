@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "BUILDING_BLOCKS",
+  "ingredients": [
+    "dunes-and-beaches:palm_log"
+  ],
+  "result": {
+    "count": 4,
+    "id": "dunes-and-beaches:palm_planks"
+  }
+}

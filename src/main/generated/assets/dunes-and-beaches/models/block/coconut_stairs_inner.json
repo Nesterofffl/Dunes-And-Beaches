@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/inner_stairs",
-  "textures": {
-    "bottom": "dunes-and-beaches:block/coconut_planks",
-    "side": "dunes-and-beaches:block/coconut_planks",
-    "top": "dunes-and-beaches:block/coconut_planks"
-  }
-}

@@ -1,18 +1,18 @@
 // 1.21.4	-999999999-01-01T00:00:00	Dunes and Beaches/Block Loot Tables
-006963b06fa322ccab1ad0379de246fa368ae905 data/dunes-and-beaches/loot_table/blocks/coconut_door.json
-f2aa90772bd5d434d8fe39efec23aaf7cfe85b4f data/dunes-and-beaches/loot_table/blocks/coconut_fence.json
-e041e8b1fd90f8095401b896df3abdd959af44f7 data/dunes-and-beaches/loot_table/blocks/coconut_fence_gate.json
-a8436e0a84f728085cb55b113611cb61813176f8 data/dunes-and-beaches/loot_table/blocks/coconut_log.json
-d5802af78540d27ccd345ed2483a7f45d5776117 data/dunes-and-beaches/loot_table/blocks/coconut_planks.json
-1a8046a53d5423a689f14e6930631d9d2b966e09 data/dunes-and-beaches/loot_table/blocks/coconut_stairs.json
-852829225e6ad6718305d2714e77ff45c803d2b0 data/dunes-and-beaches/loot_table/blocks/coconut_wood.json
 149c9e0995e5d8c0fb4b94783277e9c8422491de data/dunes-and-beaches/loot_table/blocks/desert_log.json
 6730898a02eaeab975377d43e559e196c7073c1d data/dunes-and-beaches/loot_table/blocks/desert_planks.json
 8f26ea1743d607734b080482ae402de70a4dbbde data/dunes-and-beaches/loot_table/blocks/desert_stairs.json
+24e6fd91f804eb5ad35397747cfc1c622e983461 data/dunes-and-beaches/loot_table/blocks/palm_door.json
+b5cb214733b2d176c5a79853b61c47c32f0eb984 data/dunes-and-beaches/loot_table/blocks/palm_fence.json
+ca39381c64bb63ec6047fb0552cfbdcea62ebd4e data/dunes-and-beaches/loot_table/blocks/palm_fence_gate.json
+f53358c0d36366731a28d851cb3e27b491c639c3 data/dunes-and-beaches/loot_table/blocks/palm_log.json
+26c2a10d42be7301727c3f7bbb29e74e28de8471 data/dunes-and-beaches/loot_table/blocks/palm_planks.json
+6baf4ae269c6301b95aaceac383280c27b9b9877 data/dunes-and-beaches/loot_table/blocks/palm_stairs.json
+65b755504ea4c34b01243797cb6ac4c1acb05ebe data/dunes-and-beaches/loot_table/blocks/palm_wood.json
 f68f96d8792d68e93dd4e7dc16b857cacf344e8e data/dunes-and-beaches/loot_table/blocks/sanded_cobblestone.json
 121f8bdc4b9e0673bb267a5c61968c4b58a24f9e data/dunes-and-beaches/loot_table/blocks/sanded_stone.json
 f84a42b3d9aab838c4b27443d1cc8190b2221767 data/dunes-and-beaches/loot_table/blocks/sandstone_brick_slab.json
 55ca5115fc1516ac54fa74a895d3324fc38d65ab data/dunes-and-beaches/loot_table/blocks/sandstone_brick_stairs.json
 13aab4c4e84a5cb9083a38099b6861f1f74aaf52 data/dunes-and-beaches/loot_table/blocks/sandstone_bricks.json
-28e3a73edf395b11ca1aaa5407554c37957b191b data/dunes-and-beaches/loot_table/blocks/stripped_coconut_log.json
-91b95f4b712163e72b2c3c578e0473378c9adb04 data/dunes-and-beaches/loot_table/blocks/stripped_coconut_wood.json
+f92a490b10a6b64007dbf9cf56ef08f20f0a032c data/dunes-and-beaches/loot_table/blocks/stripped_palm_log.json
+27c88fbe986a7876b3ede49c0136a69b70d03870 data/dunes-and-beaches/loot_table/blocks/stripped_palm_wood.json

@@ -26,10 +26,11 @@ public class DunesAndBeaches implements ModInitializer {
 		ModBlocks.registerModBlocks();
 		ModItemGroups.registerItemGroups();
 
-		BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.Coconut_Door, RenderLayer.getCutout());
+		BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.Palm_Door, RenderLayer.getCutout());
+		BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.Palm_Trapdoor, RenderLayer.getCutout());
 
-		StrippableBlockRegistry.register(ModBlocks.Coconut_Log, ModBlocks.Stripped_Coconut_Log);
-		StrippableBlockRegistry.register(ModBlocks.Coconut_Wood, ModBlocks.Stripped_Coconut_Wood);
+		StrippableBlockRegistry.register(ModBlocks.Palm_Log, ModBlocks.Stripped_Palm_Log);
+		StrippableBlockRegistry.register(ModBlocks.Palm_Wood, ModBlocks.Stripped_Palm_Wood);
 		StrippableBlockRegistry.register(ModBlocks.Desert_Log, ModBlocks.Stripped_Desert_Log);
 		StrippableBlockRegistry.register(ModBlocks.Desert_Wood, ModBlocks.Stripped_Desert_Wood);
 	}

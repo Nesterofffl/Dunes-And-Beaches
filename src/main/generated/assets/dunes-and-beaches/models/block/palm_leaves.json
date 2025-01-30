@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/leaves",
+  "textures": {
+    "all": "dunes-and-beaches:block/palm_leaves"
+  }
+}
