@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "dunes-and-beaches:block/willow_planks",
+    "side": "dunes-and-beaches:block/willow_planks",
+    "top": "dunes-and-beaches:block/willow_planks"
+  }
+}

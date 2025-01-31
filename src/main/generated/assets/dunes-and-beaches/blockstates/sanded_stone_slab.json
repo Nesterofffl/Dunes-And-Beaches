@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "dunes-and-beaches:block/sanded_stone_slab"
+    },
+    "type=double": {
+      "model": "dunes-and-beaches:block/sanded_stone"
+    },
+    "type=top": {
+      "model": "dunes-and-beaches:block/sanded_stone_slab_top"
+    }
+  }
+}

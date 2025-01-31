@@ -21,9 +21,20 @@ public class ModModelProvider extends FabricModelProvider
     {
 
 
-        BlockStateModelGenerator.BlockTexturePool sandstone_bricks_pool= blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.Sandstone_Bricks);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.Sanded_Stone);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.Sanded_Cobblestone);
+        BlockStateModelGenerator.BlockTexturePool sandstone_bricks_pool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.Sandstone_Bricks);
+
+
+        BlockStateModelGenerator.BlockTexturePool sanded_stone_pool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.Sanded_Stone);
+
+        sanded_stone_pool.wall(ModBlocks.Sanded_Stone_Wall);
+        sanded_stone_pool.slab(ModBlocks.Sanded_Stone_Slab);
+        sanded_stone_pool.stairs(ModBlocks.Sanded_Stone_Stairs);
+        BlockStateModelGenerator.BlockTexturePool sanded_cobblestone_pool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.Sanded_Cobblestone);
+        sanded_cobblestone_pool.wall(ModBlocks.Sanded_Cobblestone_Wall);
+        sanded_cobblestone_pool.slab(ModBlocks.Sanded_Cobblestone_Slab);
+        sanded_cobblestone_pool.stairs(ModBlocks.Sanded_Cobblestone_Stairs);
+
+
 
         BlockStateModelGenerator.BlockTexturePool coconut_planks_pool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.Palm_Planks);
         blockStateModelGenerator.registerLog(ModBlocks.Palm_Log).log(ModBlocks.Palm_Log).wood(ModBlocks.Palm_Wood);
@@ -37,10 +48,12 @@ public class ModModelProvider extends FabricModelProvider
 
         blockStateModelGenerator.registerSingleton(ModBlocks.Palm_Leaves, TexturedModel.LEAVES);
 
-        BlockStateModelGenerator.BlockTexturePool desert_planks_pool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.Desert_Planks);
-        blockStateModelGenerator.registerLog(ModBlocks.Desert_Log).log(ModBlocks.Desert_Log).wood(ModBlocks.Desert_Wood);
-        blockStateModelGenerator.registerLog(ModBlocks.Stripped_Desert_Log).log(ModBlocks.Stripped_Desert_Log).wood(ModBlocks.Stripped_Desert_Wood);
-        desert_planks_pool.stairs(ModBlocks.Desert_Stairs);
+        BlockStateModelGenerator.BlockTexturePool desert_planks_pool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.Willow_Planks);
+        blockStateModelGenerator.registerLog(ModBlocks.Willow_Log).log(ModBlocks.Willow_Log).wood(ModBlocks.Willow_Wood);
+        blockStateModelGenerator.registerLog(ModBlocks.Stripped_Willow_Log).log(ModBlocks.Stripped_Willow_Log).wood(ModBlocks.Stripped_Willow_Wood);
+        desert_planks_pool.stairs(ModBlocks.Willow_Stairs).fence(ModBlocks.Willow_Fence).fenceGate(ModBlocks.Willow_Fence_Gate);
+        blockStateModelGenerator.registerDoor(ModBlocks.Willow_Door);
+        blockStateModelGenerator.registerTrapdoor(ModBlocks.Willow_Trapdoor);
         blockStateModelGenerator.registerSingleton(ModBlocks.Desert_Leaves, TexturedModel.LEAVES);
 
         blockStateModelGenerator.registerSingleton(ModBlocks.Oasis_Grass, TexturedModel.CUBE_TOP);
@@ -48,6 +61,13 @@ public class ModModelProvider extends FabricModelProvider
         sandstone_bricks_pool.stairs(ModBlocks.Sandstone_Brick_Stairs);
         sandstone_bricks_pool.slab(ModBlocks.Sandstone_Brick_Slab);
         sandstone_bricks_pool.wall(ModBlocks.Sandstone_Brick_Wall);
+
+
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.Reinforced_Gravel);
+        BlockStateModelGenerator.BlockTexturePool gravel_bricks_pool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.Gravel_Bricks);
+        gravel_bricks_pool.stairs(ModBlocks.Gravel_Brick_Stairs);
+        gravel_bricks_pool.slab(ModBlocks.Gravel_Brick_Slab);
+        gravel_bricks_pool.wall(ModBlocks.Gravel_Brick_Wall);
 
 
     }

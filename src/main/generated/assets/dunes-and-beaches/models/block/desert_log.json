@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/cube_column",
-  "textures": {
-    "end": "dunes-and-beaches:block/desert_log_top",
-    "side": "dunes-and-beaches:block/desert_log"
-  }
-}

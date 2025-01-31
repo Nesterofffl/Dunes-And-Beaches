@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "dunes-and-beaches:block/sanded_cobblestone"
+  }
+}

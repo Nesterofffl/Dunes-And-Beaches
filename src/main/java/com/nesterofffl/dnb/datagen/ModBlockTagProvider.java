@@ -21,9 +21,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider
     {
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
                 .add(ModBlocks.Sandstone_Bricks).
-                add(ModBlocks.Sanded_Stone).
-                add(ModBlocks.Sanded_Cobblestone).
-                add(ModBlocks.Sandstone_Brick_Wall) ;
+                 add(ModBlocks.Sanded_Stone).
+                 add(ModBlocks.Sanded_Cobblestone).
+                 add(ModBlocks.Sandstone_Brick_Wall) ;
 
         getOrCreateTagBuilder(BlockTags.STAIRS)
                 .add(ModBlocks.Sandstone_Brick_Stairs);
@@ -32,12 +32,12 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider
                 .add(ModBlocks.Sandstone_Brick_Slab);
 
         getOrCreateTagBuilder(BlockTags.WALLS)
-                .add(ModBlocks.Sandstone_Brick_Wall);
+                .add(ModBlocks.Sandstone_Brick_Wall).add(ModBlocks.Sanded_Stone_Wall).add(ModBlocks.Sanded_Cobblestone_Wall);
 
-        getOrCreateTagBuilder(BlockTags.FENCES).add(ModBlocks.Palm_Fence);
-        getOrCreateTagBuilder(BlockTags.FENCE_GATES).add(ModBlocks.Palm_Fence_Gate);
-        getOrCreateTagBuilder(BlockTags.DOORS).add(ModBlocks.Palm_Door);
-        getOrCreateTagBuilder(BlockTags.TRAPDOORS).add(ModBlocks.Palm_Trapdoor);
+        getOrCreateTagBuilder(BlockTags.FENCES).add(ModBlocks.Palm_Fence).add(ModBlocks.Willow_Fence);
+        getOrCreateTagBuilder(BlockTags.FENCE_GATES).add(ModBlocks.Palm_Fence_Gate).add(ModBlocks.Willow_Fence_Gate);
+        getOrCreateTagBuilder(BlockTags.DOORS).add(ModBlocks.Palm_Door).add(ModBlocks.Willow_Door);
+        getOrCreateTagBuilder(BlockTags.TRAPDOORS).add(ModBlocks.Palm_Trapdoor).add(ModBlocks.Willow_Trapdoor);
     }
 }
 

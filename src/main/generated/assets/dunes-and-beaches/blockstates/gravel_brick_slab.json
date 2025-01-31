@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "dunes-and-beaches:block/gravel_brick_slab"
+    },
+    "type=double": {
+      "model": "dunes-and-beaches:block/gravel_bricks"
+    },
+    "type=top": {
+      "model": "dunes-and-beaches:block/gravel_brick_slab_top"
+    }
+  }
+}

@@ -2,7 +2,7 @@
 df42644e916696606a74c5cb2809ddea4975b8b8 data/minecraft/tags/block/doors.json
 c11c0811a490af0cd5aedb9a08ca64ba0e94b3d0 data/minecraft/tags/block/fence_gates.json
 0daf91624e04a6a29c0a012ecb7ddcc5d41b0e4a data/minecraft/tags/block/fences.json
-0a036937d695b1568a3fb0399fa0522f78799278 data/minecraft/tags/block/mineable/pickaxe.json
+c137a3296564febda5903b830123bd449283e946 data/minecraft/tags/block/mineable/pickaxe.json
 3894bcec78cba17bec191c974e98454ae249721a data/minecraft/tags/block/slabs.json
 5838e1c6bb40ec62976b619eb2943e05bbb09133 data/minecraft/tags/block/stairs.json
 47fdcd430c8eb7955ed72c115e1353ef104a2351 data/minecraft/tags/block/trapdoors.json

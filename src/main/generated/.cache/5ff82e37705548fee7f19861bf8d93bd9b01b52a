@@ -1,7 +1,4 @@
 // 1.21.4	-999999999-01-01T00:00:00	Dunes and Beaches/Block Loot Tables
-149c9e0995e5d8c0fb4b94783277e9c8422491de data/dunes-and-beaches/loot_table/blocks/desert_log.json
-6730898a02eaeab975377d43e559e196c7073c1d data/dunes-and-beaches/loot_table/blocks/desert_planks.json
-8f26ea1743d607734b080482ae402de70a4dbbde data/dunes-and-beaches/loot_table/blocks/desert_stairs.json
 24e6fd91f804eb5ad35397747cfc1c622e983461 data/dunes-and-beaches/loot_table/blocks/palm_door.json
 b5cb214733b2d176c5a79853b61c47c32f0eb984 data/dunes-and-beaches/loot_table/blocks/palm_fence.json
 ca39381c64bb63ec6047fb0552cfbdcea62ebd4e data/dunes-and-beaches/loot_table/blocks/palm_fence_gate.json
@@ -9,10 +6,12 @@ f53358c0d36366731a28d851cb3e27b491c639c3 data/dunes-and-beaches/loot_table/block
 26c2a10d42be7301727c3f7bbb29e74e28de8471 data/dunes-and-beaches/loot_table/blocks/palm_planks.json
 6baf4ae269c6301b95aaceac383280c27b9b9877 data/dunes-and-beaches/loot_table/blocks/palm_stairs.json
 65b755504ea4c34b01243797cb6ac4c1acb05ebe data/dunes-and-beaches/loot_table/blocks/palm_wood.json
-f68f96d8792d68e93dd4e7dc16b857cacf344e8e data/dunes-and-beaches/loot_table/blocks/sanded_cobblestone.json
-121f8bdc4b9e0673bb267a5c61968c4b58a24f9e data/dunes-and-beaches/loot_table/blocks/sanded_stone.json
 f84a42b3d9aab838c4b27443d1cc8190b2221767 data/dunes-and-beaches/loot_table/blocks/sandstone_brick_slab.json
 55ca5115fc1516ac54fa74a895d3324fc38d65ab data/dunes-and-beaches/loot_table/blocks/sandstone_brick_stairs.json
-13aab4c4e84a5cb9083a38099b6861f1f74aaf52 data/dunes-and-beaches/loot_table/blocks/sandstone_bricks.json
+13aab4c4e84a5cb9083a38099b6861f1f74aaf52 data/dunes-and-beaches/loot_table/blocks/sandstone_brick_wall.json
+df9c516f7195592f241e6d69f35043f5dded2f7d data/dunes-and-beaches/loot_table/blocks/sandstone_bricks.json
 f92a490b10a6b64007dbf9cf56ef08f20f0a032c data/dunes-and-beaches/loot_table/blocks/stripped_palm_log.json
 27c88fbe986a7876b3ede49c0136a69b70d03870 data/dunes-and-beaches/loot_table/blocks/stripped_palm_wood.json
+4a5df352abeaa97c23a91ccc4962dbc3d1244730 data/dunes-and-beaches/loot_table/blocks/willow_log.json
+ec37450a01f56a2dae652db6ec08df6097faf525 data/dunes-and-beaches/loot_table/blocks/willow_planks.json
+f2d02d335de9898a7f277a0f7ae7b0eea6799a05 data/dunes-and-beaches/loot_table/blocks/willow_stairs.json

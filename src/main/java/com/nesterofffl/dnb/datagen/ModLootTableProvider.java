@@ -17,8 +17,8 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
     public void generate()
     {
 
-        addDrop(ModBlocks.Sanded_Cobblestone);
-        addDrop(ModBlocks.Sanded_Stone);
+        //ddDrop(ModBlocks.Sanded_Cobblestone);
+        //addDrop(ModBlocks.Sanded_Stone);
 
         addDrop(ModBlocks.Palm_Log);
         addDrop(ModBlocks.Palm_Wood);
@@ -30,9 +30,9 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.Palm_Fence_Gate);
         addDrop(ModBlocks.Palm_Door, doorDrops(ModBlocks.Palm_Door));
 
-        addDrop(ModBlocks.Desert_Log);
-        addDrop(ModBlocks.Desert_Planks);
-        addDrop(ModBlocks.Desert_Stairs);
+        addDrop(ModBlocks.Willow_Log);
+        addDrop(ModBlocks.Willow_Planks);
+        addDrop(ModBlocks.Willow_Stairs);
 
         addDrop(ModBlocks.Sandstone_Bricks);
         addDrop(ModBlocks.Sandstone_Brick_Stairs);
